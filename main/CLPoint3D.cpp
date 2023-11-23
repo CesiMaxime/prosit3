@@ -1,5 +1,6 @@
 #include "CLPoint3D.h"
 #include <string>
+#include <iostream>
 
 CLPoint3D::CLPoint3D() : CLPoint() {
 	this->z = 0;
@@ -19,5 +20,6 @@ void CLPoint3D::setz(float tz) {
 
 std::string CLPoint3D::afficherCoordo(void) {
 	std::string res = "Abscisse : " + std::to_string(this->x) + " Ordonnée : " + std::to_string(this->y) + " Profondeur : " + std::to_string(this->z);
+	std::cout << res;
 	return res;
 }
