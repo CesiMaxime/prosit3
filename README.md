@@ -2,7 +2,7 @@
 
 ## Use case diagram 
 
-![Usecase diagram](diagrams/usecase.png)
+![Usecase diagram2](diagrams/usecase.png)
 
 ## Class diagram
 
